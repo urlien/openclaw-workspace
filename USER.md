@@ -1,17 +1,13 @@
 # USER.md - About Your Human
 
-_Learn about the person you're helping. Update this as you go._
-
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+- **Name:** uerling
+- **What to call them:** uerling
+- **Timezone:** GMT+8
+- **Notes:** 非技术背景，Windows 用户，没有国外手机号和外币卡
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
-
----
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+- 通过 OpenRouter + 支付宝充值使用 OpenClaw
+- 微信作为主要聊天渠道
+- GitHub 仓库：https://github.com/urlien/openclaw-workspace
+- 关注过小米云盘分享文件过期问题
