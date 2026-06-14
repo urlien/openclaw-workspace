@@ -1,7 +1,7 @@
 # USER.md - About Your Human
 
-- **Name:** uerling
-- **What to call them:** uerling
+- **Name:** Uerling·zhao
+- **What to call them:** 赵（凯西对他的称呼）
 - **Pronouns:** 他
 - **Timezone:** GMT+8
 - **Birthday:** 2003.2.8
