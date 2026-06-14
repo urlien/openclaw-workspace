@@ -9,22 +9,28 @@
 
 ## 重要事件
 
-### 2026-06-15：OpenClaw 本地部署
-- 用户从零开始在 Windows 上安装 OpenClaw
-- 使用 OpenRouter 作为模型提供商（支付宝充值，无外币卡）
-- 选择微信作为聊天渠道
-- 创建了 GitHub 仓库同步 workspace：https://github.com/urlien/openclaw-workspace
-- ⚠️ GitHub Token 曾在聊天中暴露，需提醒用户删除
+### 2026-06-15 上半场：OpenClaw 本地部署
+- 从零在 Windows 上安装 OpenClaw
+- 使用 OpenRouter（支付宝充值 $10）+ 微信渠道
+- 创建 GitHub 仓库同步 workspace：https://github.com/urlien/openclaw-workspace
+- ⚠️ GitHub Token 曾在聊天中暴露，需删除重新生成
 
-### 小米云服务文件问题
-- 用户的小米云盘「他人分享给我的文件」显示为空
-- 原因：分享链接过期或分享者撤销
-- 建议：联系分享者重新分享，选择「永久有效」
+### 2026-06-15 下半场：工作区重置
+- 用户将自定义仓库克隆到 workspace，覆盖了默认模板
+- 自定义 SOUL.md 包含大量安全协议（CoT安全思维链等）
+- 决定重置回默认：删除 md 文件 + memory 目录 + attestation 文件 → `openclaw setup`
+- 清空了所有会话记录
+- 卸载了开机自启动服务，后又重新安装（保留服务，按需启动）
 
 ## 关键配置
 - OpenClaw 版本：2026.6.6 (8c802aa)
-- 模型：OpenRouter (openrouter/auto)
+- 模型：OpenRouter (openrouter/auto) — ⚠️ 有不稳定问题，建议指定具体模型
 - 渠道：微信
 - 搜索：Parallel Search (Free)
 - Node.js：v24.16.0
-- Git：v2.54.0.windows.1（OpenClaw 自动安装的便携版）
+- Git：v2.54.0.windows.1
+
+## 用户偏好
+- 不想开机自启动 OpenClaw
+- 习惯用快捷方式双击启动
+- 非技术背景，需要简单明了的操作指引
